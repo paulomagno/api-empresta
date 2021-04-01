@@ -20,5 +20,5 @@ Route::get('/instituicoes', [ApiController::class,'getInstituicoes']);
 // Retorna todos os convênios financeiros
 Route::get('/convenios', [ApiController::class,'getConvenios']);
 
-// Retorna todos os convênios financeiros
+// Retorna todas as simulações financeiras disponíveis de acordo com os parâmetros informados
 Route::Post('/simulacao', [ApiController::class,'simulacaoCredito']);
